@@ -1,39 +1,39 @@
 * {
-  font-family: JetbrainsMono Nerd Font;
-  font-size: 20px;
+  font-family: Hack Nerd Mono;
+  font-size: 15.5px;
   min-height: 0;
-  padding-right: 2px;
-  padding-left: 2px;
+  padding-right: 1px;
+  padding-left: 1px;
   padding-bottom: 0px;
 }
 
 #waybar {
   background: transparent;
   color: #c6d0f5;
-  margin: 2px 2px;
+  margin: 1px 1px;
 }
 
 #workspaces {
-  border-radius: 5px;
-  margin: 5px;
+  border-radius: 3px;
+  margin: 3px;
   background: #101010;
   margin-left: 1rem;
 }
 
 #workspaces button {
-  color: #babbf1;
-  border-radius: 5px;
+  color: #ffffff;
+  border-radius: 3px;
   padding: 0.4rem;
 }
 
 #workspaces button.active {
   color: #99d1db;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 #workspaces button:hover {
   color: #85c1dc;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 #custom-music,
@@ -48,28 +48,9 @@
 #custom-lock,
 #custom-power {
   background-color: #101010;
-  padding: 0.5rem 1rem;
-  margin: 5px 0;
-  border-radius: 0px 5px 5px 0px;
-}
-
-#custom-stream_status {
-  background-color: #101010;
-  padding: 0.5rem 1rem;
-  margin: 5px 0;
-  border-radius: 0px 5px 5px 0px;
-}
-
-#custom-stream_status.up {
-  color: #c3e88d;
-}
-
-#custom-stream_status.warning {
-  color: #ff9e64;
-}
-
-#custom-stream_status.down {
-  color: #ea999c;
+  padding: 0.3rem 1rem;
+  margin: 3px 0;
+  border-radius: 0px 3px 3px 0px;
 }
 
 #memory {
@@ -77,7 +58,7 @@
 }
 
 #clock {
-  color: #8caaee;
+  color: #ffffff;
   border-radius: 5px;
   margin-right: 1rem;
 }
@@ -104,30 +85,29 @@
 }
 
 #pulseaudio {
-  color: #ea999c;
-  border-radius: 5px 0px 0px 5%;
+  color: #99d1db;
+  border-radius: 3px 0px 0px 5%;
   margin-left: 1rem;
 }
 
 #custom-music {
   color: #ca9ee6;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 #custom-lock {
-  border-radius: 5px 0px 0px 5px;
+  border-radius: 3px 0px 0px 3px;
   color: #babbf1;
 }
 
 #custom-power {
   margin-right: 1rem;
-  border-radius: 0px 5px 5px 0px;
+  border-radius: 0px 3px 3px 0px;
   color: #e78284;
 }
 
 #tray {
   margin-right: 1rem;
   margin-left: 1rem;
-  border-radius: 5px;
+  border-radius: 3px;
 }
-
