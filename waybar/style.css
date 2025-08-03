@@ -1,5 +1,5 @@
 * {
-  font-family: Hack Nerd Mono;
+  font-family: Hack Nerd Font;
   font-size: 15.5px;
   min-height: 0;
   padding-right: 1px;
@@ -27,7 +27,7 @@
 }
 
 #workspaces button.active {
-  color: #99d1db;
+  color: #d3d3d3;
   border-radius: 3px;
 }
 
