@@ -8,6 +8,8 @@
   "modules-right": [
     "pulseaudio",
     "network",
+    "bluetooth",
+    "battery",
   ],
   "hyprland/workspaces": {
     "format": "{name}: {icon}",
@@ -37,6 +39,14 @@
     "format": "  {icon0}{icon1}{icon2}{icon3} {usage:>2}%",
     "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
   },
+  "bluetooth": {
+    "format": "󰂯",
+    "format-disabled": "󰂲",
+    "format-off": "󰂲",
+    "on-click": "blueberry",
+    "tooltip": false
+  },
+
   "memory": {
     "interval": 30,
     "format": "  {used:0.1f}G/{total:0.1f}G"
@@ -53,9 +63,26 @@
     "tooltip": false,
     "on-click": "sh -c '(sleep 0.5s; hyprlock)' & disown",
     "format": ""
-  },
+    },
     "later": {
         "format": "<span class='icon'>{icon}</span> <span class='text'>{text}</span>"
     },
 
+  "battery": {
+        "interval":2,
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon}  {capacity}%",
+        "format-full": "{icon}  {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
+        "format-alt": "{icon} {time}",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["", "", "", "", ""]
+  },
 }
+
