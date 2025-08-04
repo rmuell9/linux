@@ -16,7 +16,7 @@
 #workspaces {
   border-radius: 3px;
   margin: 3px;
-  background: #101010;
+  background: rgba(16, 16, 16, 0.5);
   margin-left: 1rem;
 }
 
@@ -49,6 +49,7 @@
 #custom-lock,
 #custom-power {
   background-color: #101010;
+  background: rgba(16, 16, 16, 0.5);
   padding: 0.3rem 1rem;
   margin: 3px 0;
   border-radius: 0px 3px 3px 0px;
@@ -72,7 +73,7 @@
   color: #a6d189;
 }
 
-#battery.warning:not(.charging) {
+#battery.critical:not(.charging) {
   color: #e78284;
 }
 
@@ -80,7 +81,6 @@
   color: #e5c890;
 }
 
-#backlight,
 #battery {
   border-radius: 0;
 }
@@ -112,3 +112,4 @@
   margin-left: 1rem;
   border-radius: 3px;
 }
+

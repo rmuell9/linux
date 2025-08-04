@@ -7,7 +7,6 @@
   "modules-center": ["clock"],
   "modules-right": [
     "pulseaudio",
-    "backlight",
     "network",
     "bluetooth",
     "battery",
@@ -26,7 +25,7 @@
   "clock": {
     "timezone": "America/Chicago",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    "format": "{:%d - %I:%M %p}"
+    "format": "{:%d - %I:%M}"
   },
   "network": {
     "format-wifi": "",
@@ -53,7 +52,7 @@
     "format": "  {used:0.1f}G/{total:0.1f}G"
   },
   "pulseaudio": {
-    "format": "{icon} {volume}%",
+    "format": "",
     "format-muted": "",
     "format-icons": {
       "default": ["", "", " "]
@@ -69,10 +68,6 @@
         "format": "<span class='icon'>{icon}</span> <span class='text'>{text}</span>"
     },
 
-    "backlight": {
-        "format": "󰃠 {percent}%",
-        "format-icons": ["", "", "", "", "", "", "", "", ""]
-    },
     "battery": {
         "interval":2,
         "states": {
@@ -80,13 +75,14 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "{icon}  {capacity}%",
+        "format": "",
         "format-full": "{icon}  {capacity}%",
         "format-charging": " {capacity}%",
         "format-plugged": " {capacity}%",
         "format-alt": "{icon} {time}",
-        // "format-good": "", // An empty format will hide the module
-        // "format-full": "",
+        "format-critical": "{icon}  {capacity}%",
+        "format-warning": "{icon}  {capacity}%",
         "format-icons": ["", "", "", "", ""]
-  },
+    },
 }
+
