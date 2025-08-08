@@ -12,10 +12,10 @@ function parse_git_branch() {
 }
 
 COLOR_DEF=$'%f'
-COLOR_GIT=$'%F{39}'
-COLOR_PINK=$'%F{205}'
+COLOR_GIT=$'%F{75}'
+COLOR_PINK=$'%F{210}'
 setopt PROMPT_SUBST
-export PROMPT='%1~ $(git branch 2>/dev/null >/dev/null && [[ -n "$(parse_git_branch)" ]] && echo "${COLOR_GIT}git:(${COLOR_PINK}%B$(parse_git_branch)%b${COLOR_GIT})${COLOR_DEF} ")'
+export PROMPT='%B%1~%b $(git branch 2>/dev/null >/dev/null && [[ -n "$(parse_git_branch)" ]] && echo "${COLOR_GIT}git:(${COLOR_PINK}%B$(parse_git_branch)%b${COLOR_GIT})${COLOR_DEF} ")'
 
 tmux attach
 clear
@@ -24,7 +24,5 @@ HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 setopt appendhistory
-
-
 
 bindkey -v

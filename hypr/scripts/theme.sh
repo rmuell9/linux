@@ -8,10 +8,10 @@ if [[ $current == *"dark"* ]]; then
     # Switch to light
     gsettings set org.gnome.desktop.interface gtk-theme "Adwaita"
     gsettings set org.gnome.desktop.interface color-scheme "prefer-light"
-    hyprctl hyprpaper wallpaper "eDP-1,/home/matthew/.config/backgrounds/day.jpg"
+    hyprctl hyprpaper wallpaper "eDP-1,/home/matthew/.config/backgrounds/abstract.jpg"
 else
     # Switch to dark
     gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark"
     gsettings set org.gnome.desktop.interface color-scheme "prefer-dark"
-    hyprctl hyprpaper wallpaper "eDP-1,/home/matthew/.config/backgrounds/moonguy.jpg"
+    hyprctl hyprpaper wallpaper "eDP-1,/home/matthew/.config/backgrounds/smoker.jpg"
 fi
