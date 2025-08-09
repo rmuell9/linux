@@ -12,7 +12,7 @@
     "battery",
   ],
   "hyprland/workspaces": {
-    "format": "{name}: {icon}",
+    "format": "{name}",
     "format-icons": {
       "active": "",
       "default": ""
@@ -29,10 +29,11 @@
   },
   "network": {
     "format-wifi": "󰤨",
-    "format-ethernet": "󰈀 ",
+    "format-ethernet": "󰈀",
     "format-disconnected": "󰤭",
     "interval": 5,
-    "tooltip": false
+    "tooltip": false,
+    "on-click": "nm-connection-editor",
   },
   "cpu": {
     "interval": 1,
