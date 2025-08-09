@@ -3,7 +3,6 @@ mouse-hide-while-typing = true
 window-padding-balance = true
 window-decoration = false
 background-opacity=0.85
-font-family = MesloLGM Nerd Font
 cursor-style = block
 cursor-style-blink = false
 shell-integration-features = no-cursor
