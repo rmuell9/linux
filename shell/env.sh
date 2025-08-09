@@ -26,3 +26,7 @@ SAVEHIST=10000
 setopt appendhistory
 
 bindkey -v
+
+if [ "$(tty)" = "/dev/tty1" ]; then
+  exec Hyprland
+fi
