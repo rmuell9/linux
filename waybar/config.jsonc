@@ -45,7 +45,7 @@
     "format-disabled": "󰂲",
     "format-off": "󰂲",
     "on-click": "blueberry",
-    "tooltip": false
+    "tooltip-format": "Devices connected: {num_connections}"
   },
 
   "memory": {
