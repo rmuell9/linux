@@ -1,5 +1,5 @@
 alias vim='nvim'
-alias ytpl='yt-dlp --no-flat-playlist -f "bestvideo+bestaudio/best" "$1"'
+alias ytpl='yt-dlp -f "bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best" "$1"'
 alias mv='mv -iv'
 alias rm='rm -iv'
 alias zsh='nvim ~/.zshrc'
