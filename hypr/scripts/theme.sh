@@ -9,8 +9,10 @@ if [[ $current == *"dark"* ]]; then
     gsettings set org.gnome.desktop.interface gtk-theme "Adwaita"
     gsettings set org.gnome.desktop.interface color-scheme "prefer-light"
     hyprctl hyprpaper wallpaper "eDP-1,/home/matthew/.config/backgrounds/abstract.jpg"
-    sed -i "s/^theme=.*/theme=rose-pine-moon/" "/home/matthew/.config/ghostty/config"
+    # sed -i "s/^theme=.*/theme=rose-pine-moon/" "/home/matthew/.config/ghostty/config"
     sed -i "s/^    col.active_border = .*/    col.active_border = rgba(88ceebee)/" "/home/matthew/.config/hypr/settings/aesthetics.conf"
+    sed -i "s/^border-color=.*/border-color=\\#88ceebee/" "/home/matthew/.config/mako/config"
+    makoctl reload
     # pkill hyprsunset
 else
     # Switch to dark
@@ -18,7 +20,9 @@ else
     gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark"
     gsettings set org.gnome.desktop.interface color-scheme "prefer-dark"
     hyprctl hyprpaper wallpaper "eDP-1,/home/matthew/.config/backgrounds/smoker.jpg"
-    sed -i "s/^theme=.*/theme=ayu/" "/home/matthew/.config/ghostty/config"
+    # sed -i "s/^theme=.*/theme=ayu/" "/home/matthew/.config/ghostty/config"
     sed -i "s/^    col.active_border = .*/    col.active_border = rgba(00d9ffee)/" "/home/matthew/.config/hypr/settings/aesthetics.conf"
+    sed -i "s/^border-color=.*/border-color=\\#00d9ffee/" "/home/matthew/.config/mako/config"
+    makoctl reload
     # hyprsunset -t 4000
 fi
