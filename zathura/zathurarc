@@ -1,11 +1,14 @@
 # Zathura configuration file
 # See man `man zathurarc'
 
+#Save where im at in the file when i close 
+set database "sqlite"
 # Open document in fit-width mode by default
 set adjust-open "best-fit"
 
 # One page per row by default
 set pages-per-row 1
+set first-page-column 1
 
 #stop at page boundries
 set scroll-page-aware "true"
@@ -56,3 +59,15 @@ set scroll-step 50
 unmap f
 map f toggle_fullscreen
 map [fullscreen] f toggle_fullscreen
+
+
+
+how do i make zathura save where im at in the book when i close it
+
+Add this line to your zathura configuration:
+
+```
+set database "sqlite"
+```
+
+This enables zathura to save your reading position, bookmarks, and other session data to a SQLite database. When you reopen a document, it will automatically jump to where you left off.
