@@ -10,6 +10,7 @@ if [[ $current == *"dark"* ]]; then
     gsettings set org.gnome.desktop.interface color-scheme "prefer-light"
     hyprctl hyprpaper wallpaper "eDP-1,/home/matthew/.config/backgrounds/abstract.jpg"
     sed -i "s/^theme=.*/theme=rose-pine-moon/" "/home/matthew/.config/ghostty/config"
+    sed -i "s/^    col.active_border = .*/    col.active_border = rgba(88ceebee)/" "/home/matthew/.config/hypr/settings/aesthetics.conf"
     # pkill hyprsunset
 else
     # Switch to dark
@@ -18,5 +19,6 @@ else
     gsettings set org.gnome.desktop.interface color-scheme "prefer-dark"
     hyprctl hyprpaper wallpaper "eDP-1,/home/matthew/.config/backgrounds/smoker.jpg"
     sed -i "s/^theme=.*/theme=ayu/" "/home/matthew/.config/ghostty/config"
+    sed -i "s/^    col.active_border = .*/    col.active_border = rgba(00d9ffee)/" "/home/matthew/.config/hypr/settings/aesthetics.conf"
     # hyprsunset -t 4000
 fi

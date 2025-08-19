@@ -21,13 +21,13 @@
 }
 
 #workspaces button {
-  color: #ffffff;
+  color: #808080;
   border-radius: 3px;
   padding: 0.4rem;
 }
 
 #workspaces button.active {
-  color: #87CEEB;
+  color: #ffffff;
   border-radius: 3px;
 }
 
