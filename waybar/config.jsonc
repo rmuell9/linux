@@ -32,7 +32,8 @@
     "format-ethernet": "󰈀",
     "format-disconnected": "󰤭",
     "interval": 5,
-    "tooltip": false,
+    "tooltip-format-wifi": "{essid} ({signalStrength}%)",
+    "tooltip-format-ethernet": "{ifname}: {ipaddr}",
     "on-click": "nm-connection-editor",
   },
   "cpu": {
@@ -86,4 +87,3 @@
         "format-icons": ["", "", "", "", ""]
     },
 }
-
