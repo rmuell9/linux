@@ -19,7 +19,7 @@ else
     notify-send "Switched to Dark Theme"
     gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark"
     gsettings set org.gnome.desktop.interface color-scheme "prefer-dark"
-    hyprctl hyprpaper wallpaper "eDP-1,/home/matthew/.config/backgrounds/smoker.jpg"
+    hyprctl hyprpaper wallpaper "eDP-1,/home/matthew/.config/backgrounds/snow.jpg"
     # sed -i "s/^theme=.*/theme=ayu/" "/home/matthew/.config/ghostty/config"
     sed -i "s/^    col.active_border = .*/    col.active_border = rgba(00d9ffee)/" "/home/matthew/.config/hypr/settings/aesthetics.conf"
     sed -i "s/^border-color=.*/border-color=\\#00d9ffee/" "/home/matthew/.config/mako/config"
