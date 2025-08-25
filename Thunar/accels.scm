@@ -67,6 +67,7 @@
 ; (gtk_accel_path "<Actions>/ThunarWindow/zoom-out" "<Primary>minus")
 ; (gtk_accel_path "<Actions>/ThunarWindow/remove-from-recent" "")
 ; (gtk_accel_path "<Actions>/ThunarActionManager/open-with-other" "")
+; (gtk_accel_path "<Actions>/ThunarBookmarks/2277a9dcd2956e7fde546881a0cce6d2" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/invert-selection" "<Primary><Shift>i")
 ; (gtk_accel_path "<Actions>/ThunarWindow/view-side-pane-shortcuts" "<Primary>b")
 ; (gtk_accel_path "<Actions>/ThunarWindow/reload-alt-2" "Reload")
