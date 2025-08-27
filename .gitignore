@@ -2,6 +2,9 @@ notepad.md
 /shell/keys.sh
 /hypr/scripts/password.sh
 
+flutter/
+fvm/
+ghc/
 Electron/
 VirtualBox/
 avizo/
