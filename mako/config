@@ -1,11 +1,10 @@
 default-timeout=3000
 background-color=#1a1b26cc
 text-color=#cfc9c2
-border-color=#00d9ffee
+border-color=#88ceebee
 font=JetbrainsMono Nerd Font 15
 width=420
 height=369
 
 [app-name="Spotify"]
 invisible=1
-

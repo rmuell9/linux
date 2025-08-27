@@ -1,4 +1,3 @@
-eval "$(/opt/homebrew/bin/brew shellenv)"
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
 eval "$(fzf --zsh)"
 
@@ -17,8 +16,6 @@ COLOR_PINK=$'%F{210}'
 setopt PROMPT_SUBST
 export PROMPT='%B%1~%b $(git branch 2>/dev/null >/dev/null && [[ -n "$(parse_git_branch)" ]] && echo "${COLOR_GIT}git:(${COLOR_PINK}%B$(parse_git_branch)%b${COLOR_GIT})${COLOR_DEF} ")'
 
-tmux attach
-clear
 #CTRL-r for fzf CL history
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
