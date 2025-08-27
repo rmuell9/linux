@@ -45,7 +45,7 @@
     "format": "󰂯",
     "format-disabled": "󰂲",
     "format-off": "󰂲",
-    "on-click": "blueberry",
+    "on-click": "kitty -e bluetui",
     "tooltip-format": "Devices connected: {num_connections}"
   },
 
