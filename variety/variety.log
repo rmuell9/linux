@@ -1,0 +1,8 @@
+INFO: 2025-08-27 15:11:49,898: main() 'Using profile folder /home/matthew/.config/variety/'
+INFO: 2025-08-27 15:11:49,899: prepare_config_folder() 'Missing config file, copying it from /usr/share/variety/config/variety.conf'
+INFO: 2025-08-27 15:11:49,899: prepare_config_folder() 'Missing ui.conf file, copying it from /usr/share/variety/config/ui.conf'
+INFO: 2025-08-27 15:11:49,900: makedirs() 'Creating folder /home/matthew/.config/variety/plugins'
+INFO: 2025-08-27 15:11:49,900: makedirs() 'Creating folder /home/matthew/.config/variety/scripts'
+INFO: 2025-08-27 15:11:49,900: prepare_config_folder() 'Missing set_wallpaper file, copying it from /usr/share/variety/scripts/set_wallpaper'
+INFO: 2025-08-27 15:11:49,900: prepare_config_folder() 'Missing get_wallpaper file, copying it from /usr/share/variety/scripts/get_wallpaper'
+INFO: 2025-08-27 15:11:49,900: makedirs() 'Creating folder /home/matthew/.config/variety/wallpaper'

@@ -34,7 +34,7 @@
     "interval": 5,
     "tooltip-format-wifi": "{essid} ({signalStrength}%)",
     "tooltip-format-ethernet": "{ifname}: {ipaddr}",
-    "on-click": "kitty --class=floating -e impala"
+    "on-click": "kitty -e impala"
   },
   "cpu": {
     "interval": 1,
