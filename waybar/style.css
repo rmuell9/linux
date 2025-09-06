@@ -45,6 +45,7 @@
 #pulseaudio,
 #network,
 #cpu,
+#custom-media,
 #memory,
 #custom-lock,
 #custom-power {
@@ -52,7 +53,8 @@
   background: rgba(16, 16, 16, 0.5);
   padding: 0.3rem 1rem;
   margin: 3px 0;
-  border-radius: 0px 3px 3px 0px;
+  border-radius: 0px;
+  color: #ffffff;
 }
 
 #memory {
@@ -61,7 +63,7 @@
 
 #clock {
   color: #ffffff;
-  border-radius: 5px;
+  border-radius: 3px;
   margin-right: 1rem;
 }
 
@@ -104,7 +106,7 @@
 #custom-power {
   margin-right: 1rem;
   border-radius: 0px 3px 3px 0px;
-  color: #e78284;
+  color: #ffffff;
 }
 
 #tray {
@@ -112,4 +114,3 @@
   margin-left: 1rem;
   border-radius: 3px;
 }
-
