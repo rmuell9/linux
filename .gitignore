@@ -1,12 +1,15 @@
 notepad.md
+QtProject.conf
 /shell/keys.sh
 /hypr/scripts/password.sh
 
 Kitware/
 guvcview2/
 retroarch/
+qBittorrent/
 variety/
 xfce4-dict/
+envman/
 flutter/
 fvm/
 ghc/
