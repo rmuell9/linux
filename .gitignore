@@ -4,6 +4,8 @@ QtProject.conf
 /hypr/scripts/password.sh
 
 Kitware/
+obs-studio/
+mako/
 guvcview2/
 retroarch/
 qBittorrent/

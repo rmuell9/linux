@@ -10,6 +10,7 @@
         "pulseaudio",
         "network",
         "bluetooth",
+        // "memory",
         "battery",
     ],
     "hyprland/workspaces": {
@@ -27,7 +28,7 @@
         "timezone": "America/Chicago",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format": "{:%d - %I:%M}",
-        "on-click": "sh -c '(sleep 0.5s; hyprlock)' & disown",
+        "on-click": "sh -c '(sleep 0.5s; hyprlock)' & disown && playerctl stop",
     },
     "network": {
         "format-wifi": "󰤨",
