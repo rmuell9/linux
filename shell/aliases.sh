@@ -16,5 +16,5 @@ alias cw='cd ~/.config/waybar && bash ~/.config/hypr/scripts/cg-notify.sh && nvi
 alias ls='lsd'
 alias nv='nvim $(fzf -m --preview="bat --color=always {}")'
 alias tt='tmux new-session -s dev -c ~ -n nvim ";" new-window -c ~ -n zsh ";" select-window -t nvim'
-alias activate='source .venv/bin/activate'
+alias activate='source .venv/bin/activate --active'
 alias paint='kitty icat'

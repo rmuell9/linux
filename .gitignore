@@ -4,6 +4,8 @@ QtProject.conf
 /hypr/scripts/password.sh
 
 Kitware/
+waybar/waybar-tickers/
+qalculate/
 obs-studio/
 mako/
 guvcview2/

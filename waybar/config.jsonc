@@ -2,7 +2,8 @@
     "layer": "top",
     "position": "top",
     "modules-left": [
-        "hyprland/workspaces"
+        "hyprland/workspaces",
+        "custom/stocks"
     ],
     "modules-center": ["clock"],
     "modules-right": [
@@ -99,5 +100,10 @@
         "format-critical": "{icon}  {capacity}%",
         "format-warning": "{icon}  {capacity}%",
         "format-icons": ["", "", "", "", ""]
+    },
+
+    "custom/stocks": {
+        "exec": "$HOME/workspace/github/rmuell9/waybar-tickers/display.sh AAPL",
+        "restart-interval": 10,
     },
 }
