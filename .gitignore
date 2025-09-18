@@ -5,6 +5,8 @@ QtProject.conf
 
 Kitware/
 waybar/waybar-tickers/
+neofetch/
+fastfetch/
 qalculate/
 obs-studio/
 mako/
