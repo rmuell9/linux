@@ -2,7 +2,6 @@
 
 if pgrep -x "waybar" > /dev/null
 then
-    notify-send "Interview Mode Enabled"
     pkill waybar
     pkill hyprsunset
     hyprctl hyprpaper wallpaper "eDP-1,/home/matthew/.config/backgrounds/windows.jpg"
