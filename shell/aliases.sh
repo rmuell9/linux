@@ -13,7 +13,7 @@ alias cg='cd ~/.config/ghostty && bash ~/.config/hypr/scripts/cg-notify.sh && nv
 alias cw='cd ~/.config/waybar && bash ~/.config/hypr/scripts/cg-notify.sh && nvim .'
 alias ls='lsd'
 alias nv='nvim $(fzf -m --preview="bat --color=always {}")'
-alias tt='tmux new-session -s dev -c ~ -n nvim ";" new-window -c ~ -n zsh ";" select-window -t nvim'
+alias tt='tmux new-session -d -s dev -c ~ -n nvim ";" new-window -c ~ -n zsh ";" select-window -t nvim'
 alias activate='source .venv/bin/activate --active'
 alias paint='kitty icat'
 alias ti='selected_dir=$(find ~ -type d 2>/dev/null | fzf --prompt="Select directory: ") && tmux new-session -s $(basename "$selected_dir") -c $selected_dir -n nvim ";" new-window -c $selected_dir -n zsh ";" select-window -t nvim'
