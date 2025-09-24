@@ -3,7 +3,7 @@
 # Check current theme
 current=$(gsettings get org.gnome.desktop.interface gtk-theme)
 
-if [[ $current == *"Adwaita"* ]]; then
+if [[ $current == "'Adwaita'" ]]; then
     # Switch to dark
     notify-send "Switched to Dark Theme"
     gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark"
