@@ -14,7 +14,16 @@ COLOR_DEF=$'%f'
 COLOR_GIT=$'%F{117}'
 COLOR_PINK=$'%F{210}'
 setopt PROMPT_SUBST
-export PROMPT='%1~%b $(git branch 2>/dev/null >/dev/null && [[ -n "$(parse_git_branch)" ]] && echo "${COLOR_GIT}git:(${COLOR_PINK}$(parse_git_branch)%b${COLOR_GIT})${COLOR_DEF} ")'
+
+#git:(main)
+
+# export PROMPT='%1~%b $(git branch 2>/dev/null >/dev/null && [[ -n "$(parse_git_branch)" ]] && echo "${COLOR_GIT}git:(${COLOR_PINK}$(parse_git_branch)%b${COLOR_GIT})${COLOR_DEF} ")'
+
+#_main_
+export PROMPT='%1~$(git branch 2>/dev/null >/dev/null && [[ -n "$(parse_git_branch)" ]] && echo " %{\e[3m%}$(parse_git_branch)%{\e[0m%}") > '
+
+
+
 
 #CTRL-r for fzf CL history
 HISTFILE=~/.zsh_history
@@ -22,11 +31,7 @@ HISTSIZE=10000
 SAVEHIST=10000
 setopt appendhistory
 
-bindkey -v
 
 if [ "$(tty)" = "/dev/tty1" ]; then
   exec Hyprland
 fi
-
-
-

@@ -31,12 +31,14 @@
         "on-click": "sh -c '(sleep 0.5s; hyprlock)' & disown && playerctl stop",
     },
     "network": {
-        "format-wifi": "󰤨",
+        "format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"],
+        "format": "{icon}",
+        "format-wifi": "{icon}",
         "format-ethernet": "󰈀",
         "format-disconnected": "󰤭",
-        "interval": 5,
-        "tooltip-format-wifi": "{essid} ({signalStrength}%)",
-        "tooltip-format-ethernet": "{ifname}: {ipaddr}",
+        "interval": 3,
+        "tooltip-format-wifi": "{essid} ({frequency} GHz)\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
+        "tooltip-format-ethernet": "⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
         "on-click": "kitty -e impala",
     },
     "cpu": {
