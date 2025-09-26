@@ -2,7 +2,7 @@ background-color=#1a1b26cc
 text-color=#cfc9c2
 border-color=#ffffff
 
-include=~/.local/share/dev/themes/current/mako.ini
+include=~/.config/dev/current/mako.ini
 
 default-timeout=3000
 anchor=top-right

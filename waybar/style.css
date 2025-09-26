@@ -1,4 +1,4 @@
-@import "../../.local/share/dev/themes/current/waybar.css";
+@import "../../.config/dev/current/waybar.css";
 * {
   font-family: JetbrainsMono Nerd Font;
   font-size: 15.5px;

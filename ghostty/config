@@ -1,4 +1,4 @@
-config-file = ?"~/.local/share/dev/themes/current/ghostty.conf"
+config-file = ?"~/.config/dev/current/ghostty.conf"
 
 font-size = 20
 font-style = Regular
