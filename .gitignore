@@ -2,7 +2,6 @@ notepad.md
 .mozilla/
 QtProject.conf
 nohup.out
-/shell/keys.sh
 
 Kitware/
 waybar/waybar-tickers/
@@ -11,7 +10,6 @@ neofetch/
 fastfetch/
 qalculate/
 obs-studio/
-mako/
 guvcview2/
 retroarch/
 qBittorrent/
