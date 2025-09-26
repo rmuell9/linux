@@ -1,3 +1,4 @@
+@import "../../.local/share/dev/themes/current/waybar.css";
 * {
   font-family: JetbrainsMono Nerd Font;
   font-size: 15.5px;
@@ -16,7 +17,7 @@
 #custom-stocks {
   border-radius: 3px;
   margin: 3px;
-  background: rgba(16, 16, 16, 0.5);
+  background: @background;
   padding: 0.3rem 1rem;
   margin: 3px 0;
   color: #ffffff;
@@ -26,7 +27,7 @@
 #workspaces {
   border-radius: 3px;
   margin: 3px;
-  background: rgba(16, 16, 16, 0.5);
+  background: @background;
   margin-left: 1rem;
 }
 
@@ -59,7 +60,7 @@
 #memory,
 #custom-lock,
 #custom-power {
-  background: rgba(16, 16, 16, 0.5);
+  background: @background;
   padding: 0.3rem 1rem;
   margin: 3px 0;
   border-radius: 0px;
