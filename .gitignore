@@ -1,7 +1,10 @@
 notepad.md
 .mozilla/
 QtProject.conf
+Mousepad/
 nohup.out
+dev/
+GIMP/
 
 Kitware/
 waybar/waybar-tickers/

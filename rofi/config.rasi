@@ -1,0 +1,9 @@
+configuration {
+    modi: "drun,run";                    // Available modes
+    drun-display-format: "{name}";       // Hide item info
+    show-icons: true;                    // Show app icons
+    font: "JetBrainsMono Nerd Font 12"; 
+}
+
+@theme "~/.config/rofi/theme.rasi"
+

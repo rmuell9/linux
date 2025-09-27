@@ -20,7 +20,7 @@
   background: @background;
   padding: 0.3rem 1rem;
   margin: 3px 0;
-  color: #ffffff;
+  color: @foreground;
 }
 
 
@@ -38,7 +38,7 @@
 }
 
 #workspaces button.active {
-  color: #ffffff;
+  color: @foreground;
   border-radius: 3px;
 }
 
@@ -64,7 +64,7 @@
   padding: 0.3rem 1rem;
   margin: 3px 0;
   border-radius: 0px;
-  color: #ffffff;
+  color: @foreground;
 }
 
 #memory {
@@ -72,7 +72,7 @@
 }
 
 #clock {
-  color: #ffffff;
+  color: @foreground;
   border-radius: 3px;
   margin-right: 1rem;
 }
@@ -98,25 +98,25 @@
 }
 
 #pulseaudio {
-  color: #99d1db;
+  color: @foreground;
   border-radius: 3px 0px 0px 5%;
   margin-left: 1rem;
 }
 
 #custom-music {
-  color: #ca9ee6;
+  color: @foreground;
   border-radius: 3px;
 }
 
 #custom-lock {
   border-radius: 3px 0px 0px 3px;
-  color: #babbf1;
+  color: @foreground;
 }
 
 #custom-power {
   margin-right: 1rem;
   border-radius: 0px 3px 3px 0px;
-  color: #ffffff;
+  color: @foreground;
 }
 
 #tray {
